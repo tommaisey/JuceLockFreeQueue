@@ -16,7 +16,7 @@
  * http://www.drdobbs.com/parallel/writing-lock-free-code-a-corrected-queue/
  * 
  * This is a linked list, which can expand arbitrarily without losing old data,
- * nut which has poor cache locality (compare to Lockless Ring Buffer).
+ * but which has poor cache locality (I plan to write a ring buffer version soon).
  */
 template<typename T>
 class LockFreeQueue
